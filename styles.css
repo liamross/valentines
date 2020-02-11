@@ -1,0 +1,18 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+}
+
+div {
+  margin-bottom: 16px;
+}
+
+main {
+  margin: 16px 0;
+  word-wrap: break-word;
+  color: darkred;
+}
+
+main.valid {
+  color: darkgreen;
+}

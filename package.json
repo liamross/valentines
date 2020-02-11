@@ -1,0 +1,16 @@
+{
+  "name": "valentines",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf docs && parcel build index.html --out-dir docs --no-source-maps --public-url ./",
+    "cypher": "node generateCypher.js"
+  },
+  "dependencies": {
+    "crypto-js": "3.1.9-1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
